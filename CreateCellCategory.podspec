@@ -6,8 +6,10 @@ Pod::Spec.new do |s|
    s.license    = 'MIT'
    s.platform   = :ios
    s.author     = {'SilenceZhou' => '1063123603@qq.com'}
-   s.ios.deployment_target = '8.0'
+   s.ios.deployment_target = '6.0'
    s.source     = {:git => 'https://github.com/SilenceZhou/CreateCellCategory.git', :tag => s.version}
    s.frameworks   = 'UIKit','CreateCellCategory'
    s.requires_arc= true
+   s.source_files = 'CreateCellCategory/*.{h,m}’
+
 end
