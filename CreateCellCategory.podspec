@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
    s.source     = {:git => 'https://github.com/SilenceZhou/CreateCellCategory.git', :tag => s.version}
    s.frameworks   = 'UIKit','CreateCellCategory'
    s.requires_arc= true
-   s.source_files = 'CreateCellCategory/*.{h,m}’
+   s.source_files = 'CreateCellCategory/*.{h,m}'
 
 end
