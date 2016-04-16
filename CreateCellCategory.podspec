@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
    s.name       = 'CreateCellCategory'
-   s.version    = '1.0.1'
+   s.version    = '1.0.2'
    s.summary    = 'An easy way to Create Cell Category.'
    s.homepage   = 'https://github.com/SilenceZhou/CreateCellCategory'
    s.license    = 'MIT'
